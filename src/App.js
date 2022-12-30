@@ -7,21 +7,21 @@ import Skills from './components/Skills';
 function App() {
   return (
     <div className=' bg-[rgb(36,36,36)] text-white h-screen snap-y
-    snap-mandatory overflow-scroll z-0'>
+    overflow-scroll z-0'>
       <Header/>
 
-      <section id ='hero' className='snap-start'>
+      <section id ='hero' >
           <Hero/>
       </section>
 
 
-      <section id='about' className='snap-center'>
+      <section id='about' >
         <About />
       </section>
 
 
 
-      <section id='skills' className='snap-start'>
+      <section id='skills'>
       <Skills/>
       </section>
 

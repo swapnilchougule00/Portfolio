@@ -18,8 +18,11 @@ function Hero() {
     >
       <BackGroundCircles />
       <motion.img
+      initial={{
+        opacity:0.5
+      }}
         animate={{
-          rotate: 360,
+          scale:[1,2,1]
         }}
         transition={{
           duration: 1.3,
