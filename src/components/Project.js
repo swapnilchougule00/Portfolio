@@ -50,7 +50,7 @@ const projects = [
       projects.map((value)=>{
         return (
               
-        <div key={value.id} className="mt-20 mr-5 bg-[#202020] p-4 card flex flex-col rounded-lg items-center 
+        <div key={value.id} className="mt-10 mr-5 bg-[#202020] p-4 card flex flex-col rounded-lg items-center 
         w-[300px] md:w-[500px] xl:w-[600px] scpace-y-2 flex-shrink-0">
         <motion.img 
         initial={{

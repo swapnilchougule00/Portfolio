@@ -12,7 +12,7 @@ function Projects() {
       <p className="absolute text-2xl top-24 text-gray-500 uppercase tracking-[20px]">
         Projects
       </p>
-        <div className="w-full flex space-x-5 overflow-x-scroll p-10 ">
+        <div className="w-full flex space-x-5 overflow-x-scroll  ">
       <Project/>
         </div>
       
