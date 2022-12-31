@@ -7,7 +7,7 @@ import { HashLink as Link } from "react-router-hash-link";
 
 function Hero() {
   const [text] = useTypewriter({
-    words: ["Hi, My name is Swapnil Chougule", "<GuyWhoLovesToCdoe/>"],
+    words: ["Hi, My name is Swapnil Chougule", "I am a React Developer"],
     loop: true,
   });
 
