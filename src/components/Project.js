@@ -11,7 +11,7 @@ function Project() {
   return (
     <div className='flex flex-row '>
         <div className="mt-20  bg-[#202020] p-4 card flex flex-col rounded-lg items-center 
-        w-[400px] md:w-[500px] xl:w-[600px] scpace-y-2 flex-shrink-0">
+        w-[300px] md:w-[500px] xl:w-[600px] scpace-y-2 flex-shrink-0">
         <motion.img 
         initial={{
             y:-80,
@@ -42,7 +42,7 @@ function Project() {
 
 
         <div className="mt-20 ml-4   bg-[#202020] p-4 card flex flex-col rounded-lg items-center 
-        w-[400px] md:w-[500px] xl:w-[600px] scpace-y-2 flex-shrink-0">
+        w-[300px] md:w-[500px] xl:w-[600px] scpace-y-2 flex-shrink-0">
         <motion.img 
         initial={{
             y:-80,
@@ -73,7 +73,7 @@ function Project() {
 
 
         <div className="mt-20 card flex flex-col ml-4 bg-[#202020] p-4 rounded-lg items-center 
-        w-[400px] md:w-[500px] xl:w-[600px] scpace-y-2 flex-shrink-0">
+        w-[300px] md:w-[500px] xl:w-[600px] scpace-y-2 flex-shrink-0">
         <motion.img 
         initial={{
             y:-80,
@@ -85,7 +85,7 @@ function Project() {
         }}
         transition={{duration:1.5}}
         className="px-5 " src={linkedin} alt="imges" />
-        <p className='flex px-0 md:px-2 uppercase mt-4 text-2xl'>linkdin clone</p>
+        <p className='flex px-0 md:px-2 uppercase mt-2 text-2xl'>linkdin clone</p>
        
           
         <div className='flex mt-5 w-full justify-around'>
@@ -104,7 +104,7 @@ function Project() {
 
 
         <div className="mt-20 card flex ml-4  bg-[#202020] flex-col p-4 rounded-lg items-center 
-        w-[400px] md:w-[500px] xl:w-[600px] scpace-y-2 flex-shrink-0">
+        w-[300px] md:w-[500px] xl:w-[600px] scpace-y-2 flex-shrink-0">
         <motion.img 
         initial={{
             y:-80,
