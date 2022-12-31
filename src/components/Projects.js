@@ -5,7 +5,7 @@ import Project from "./Project";
 
 function Projects() {
   return (
-    <motion.div
+    <motion.div  id='projects'
       className="h-screen relative flex flex-col text-center 
     overflow-hidden max-w-full justify-evenly px-10 mx-auto items-center "
     >

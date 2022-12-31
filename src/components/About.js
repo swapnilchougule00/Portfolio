@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 function About() {
   return (
-    <div
+    <div id='about'
       className="flex flex-col relative h-screen text-center md:pl-10 md:text-left md:flex-row
     max-w-7xl justify-evenly max-auto items-center xl:pl-60 "
     >

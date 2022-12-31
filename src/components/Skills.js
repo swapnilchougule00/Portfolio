@@ -3,7 +3,7 @@ import Skill from './Skill'
 
 function Skills() {
   return (
-    <div
+    <div id='skills'
    
     
      className='h-screen flex relative flex-col text-center md:text-left

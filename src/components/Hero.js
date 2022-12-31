@@ -1,9 +1,9 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import { Cursor, useTypewriter } from "react-simple-typewriter";
 import BackGroundCircles from "./BackGroundCircles";
 import img1 from "./images/img1.jpeg";
 import { motion } from "framer-motion";
+import { HashLink as Link } from "react-router-hash-link";
 
 function Hero() {
   const [text] = useTypewriter({
@@ -40,18 +40,22 @@ function Hero() {
           <Cursor />
         </h1>
         <div className="pt-3">
-          <Link to='#about'>
-            <button className="heroButton">About</button>
-          </Link>
-          <Link >
-            <button className="heroButton">skills</button>
-          </Link>
-          <Link>
-            <button className="heroButton">Projects</button>
-          </Link>
-          <Link>
-            <button className="heroButton">Contact</button>
-          </Link>
+
+         
+            <Link smooth to="#about" className="heroButton">About</Link>
+       
+  
+          
+            <Link smooth to="#skills" className="heroButton">skills</Link>
+         
+
+         
+            <Link smooth to="#projects" className="heroButton">Projects</Link>
+         
+
+         
+            <Link smooth to="#contact" className="heroButton">Contact</Link>
+         
         </div>
       </div>
     </div>
