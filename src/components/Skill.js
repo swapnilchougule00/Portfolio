@@ -56,7 +56,7 @@ function Skill() {
       transition={{
         duration:1
       }}
-      className='img xl:h-28' src="https://th.bing.com/th/id/R.f81a6f373c244b1f70f4b7402b5ab372?rik=rbXh4ieLuKt%2bmA&riu=http%3a%2f%2flogos-download.com%2fwp-content%2fuploads%2f2016%2f09%2fReact_logo_logotype_emblem.png&ehk=QhGOkKcUKCU7FBQgHOajOiJqJBACUTD2Ni6LsfqzCEA%3d&risl=&pid=ImgRaw&r=0" alt="" />
+      className='img' src="https://clouddevs.com/wp-content/uploads/2018/08/react-logo-transparent-450x450.png" alt="" />
       <motion.img 
       initial={{
         x:-150,
@@ -69,7 +69,7 @@ function Skill() {
       transition={{
         duration:1
       }}
-      className='img h-24 xl:h-28 ' src="https://codekitapp.com/images/help/free-tailwind-icon@2x.png" alt="" />
+      className='img' src="https://media.zeemly.com/zeemly/product/tailwind-css.png" alt="" />
       <motion.img 
       initial={{
         x:-150,

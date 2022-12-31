@@ -19,13 +19,13 @@ function Hero() {
       <BackGroundCircles />
       <motion.img
       initial={{
-        opacity:0.5
+        rotate:270
       }}
         animate={{
-          scale:[1,2,1]
+          rotate:360
         }}
         transition={{
-          duration: 1.3,
+          duration: 1
         }}
         className="reletive rounded-full h-32 w-31 mx-auto object-cover "
         src={img1}

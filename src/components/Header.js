@@ -37,6 +37,8 @@ function Header() {
           fgColor="grey"
           bgColor="transparent"
         />
+        <SocialIcon url="https://portfolio-swapnil-chougule.netlify.app/" label="portfolio" fgColor="grey"
+          bgColor="transparent" />
       </motion.div>
 
       <motion.div
