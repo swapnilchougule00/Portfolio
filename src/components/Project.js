@@ -39,8 +39,7 @@ const projects = [
     img:travel,
     title:'travle web',
     demo:'https://travel-website-sc.netlify.app/',
-    git:'https://github.com/swapnilchougule00/Travel_website'
-  }
+    git:'https://github.com/swapnilchougule00/Travel_website'}
 ]
 
   return (
