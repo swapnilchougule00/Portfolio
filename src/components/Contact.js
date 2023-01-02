@@ -21,9 +21,9 @@ function Contact() {
         <input type="email" placeholder='Email' name='email'  className='contact-input' />
   
         <input type="text"  placeholder='Subject' name='subject' className='contact-input' />
-        <textarea type="text" name='message' placeholder='Message' className='contact-input h-28' />
+        <textarea type="text" name='message' placeholder='Message' className='mb-4 contact-input h-28' />
         <button className='bg-yellow-500 py-2 font-semibold text-xl rounded-lg
-         hover:bg-transparent hover:border '>Submit</button>
+         hover:bg-transparent hover:border w-40 mx-auto md:w-fit '>Submit</button>
     </form>
 
     </div>

@@ -14,7 +14,7 @@
     }
 
     .contact-input {
-        @apply outline-none bg-slate-400/10 w-72 md:w-96 rounded-sm border-b py-2 text-sm md:text-base p-1
+        @apply outline-none bg-slate-400/10 w-72 md:w-96 rounded-sm border-b py-2 text-sm md:text-base p-2
         border-[#242424] hover:border-[#F7AB0A] text-gray-500 
     }
     .no-scrollbar {

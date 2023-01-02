@@ -70,7 +70,7 @@ const projects = [
           <a href={value.demo} target='main'>View Demo</a>
           </button>
 
-          <button className="heroButton border border-white/50">
+          <button className="heroButton border  border-white/50">
            <a href={value.git} target='main'>View Code</a>
         
           </button>
