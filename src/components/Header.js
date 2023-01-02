@@ -1,6 +1,7 @@
 import React from "react";
 import { SocialIcon } from "react-social-icons";
 import { motion } from "framer-motion";
+import { HashLink as Link } from "react-router-hash-link";
 
 function Header() {
   return (
@@ -39,7 +40,7 @@ function Header() {
         />
         
       </motion.div>
-
+      <Link smooth to="#contact">
       <motion.div
        initial={{
         x:500,
@@ -55,16 +56,20 @@ function Header() {
         duration:1.5,
       }}
        className="cursor-pointer flex flex-row items-center text-gray-400">
-        <SocialIcon
+       
+         <SocialIcon
           network="email"
           className="cursor-pointer"
           fgColor="grey"
           bgColor="transparent"
         />
+
         <p className="uppercase hidden md:inline-flex text-sm text-gray-400">
+          
           get in touch
         </p>
       </motion.div>
+        </Link>
     </header>
   );
 }
