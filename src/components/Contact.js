@@ -23,7 +23,7 @@ function Contact() {
         <input type="text"  placeholder='Subject' name='subject' className='contact-input' />
         <textarea type="text" name='message' placeholder='Message' className='mb-4 contact-input h-28' />
         <button className='bg-yellow-500 py-2 font-semibold text-xl rounded-lg
-         hover:bg-transparent hover:border w-40 mx-auto md:w-fit '>Submit</button>
+         hover:bg-transparent hover:border w-40 mx-auto md:w-80 '>Submit</button>
     </form>
 
     </div>
