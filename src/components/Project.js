@@ -65,10 +65,12 @@ const projects = [
             y:-40,
             opacity:0
         }}
-        animate={{
+        whileInView={{
             y:0,
             opacity:1
+            
         }}
+        viewport={{once:true}}
         transition={{duration:1.5}}
         className="px-5" src={value.img} alt="images" />
         <p className='flex px-0 md:px-2 uppercase mt-4 text-2xl'>{value.title}</p>
