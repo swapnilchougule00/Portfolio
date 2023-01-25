@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion'
 import React from 'react'
 import news from './images/news.jpeg'
+import store from './images/store.jpeg'
 import weather from './images/weather.jpeg'
 import linkedin from './images/linkedin.jpeg'
 import travel from './images/travel.jpeg'
@@ -10,6 +11,14 @@ import travel from './images/travel.jpeg'
 function Project() {
 
 const projects = [
+  {
+    id:0,
+    img:store,
+    title:'Ecommerce Store',
+    demo:'https://e-commerce-store-sc.netlify.app/',
+    git:'https://github.com/swapnilchougule00/ECommerce_Store'
+  },
+
   {
     id:1,
     img:news,
@@ -53,10 +62,10 @@ const projects = [
         w-[350px] md:w-[500px] xl:w-[600px] scpace-y-2 flex-shrink-0">
         <motion.img 
         initial={{
-            y:-80,
+            y:-40,
             opacity:0
         }}
-        whileInView={{
+        animate={{
             y:0,
             opacity:1
         }}
