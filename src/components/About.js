@@ -1,5 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
+import aboutImg from './images/aboutImg.avif'
+
 function About() {
   return (
     <div id='about'
@@ -23,8 +25,7 @@ function About() {
         duration:1
       }}
 
-        src='https://www.google.com/imgres?imgurl=https%3A%2F%2Fpng.pngtree.com%2Fpng-vector%2F20230728%2Fourmid%2Fpngtree-coding-clipart-cartoon-character-working-on-a-computer-vector-png-image_6811038.png&tbnid=hFUMyoa0wvrN0M&vet=12ahUKEwjVhJ7Yo9CDAxWtpmMGHUMQA8AQMygDegQIARBe..i&imgrefurl=https%3A%2F%2Fpngtree.com%2Ffreepng%2Fcode-clipart-cartoon-character-working-on-a-computer-with-headphones-vector_11067088.html&docid=JBX7-Ys3KTV87M&w=360&h=360&q=coding%20cartoon%20png&hl=en&ved=2ahUKEwjVhJ7Yo9CDAxWtpmMGHUMQA8AQMygDegQIARBe'
-        
+        src={aboutImg}        
         alt="Image"
         className="w-40 h-40 rounded-full object-cover flex-shrink-0 mt-24 md:rounded-lg 
         md:mt-0 md:w-65 md:h- xl:w-[250px] xl:h-[350px] "
