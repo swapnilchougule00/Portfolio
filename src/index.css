@@ -2,23 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
-
 @layer components {
-    .heroButton { 
-        @apply px-6 py-2 border border-[#242424] rounded-full text-sm tracking-widest
-        text-gray-500 transition-all hover:text-[#f7AB0A] hover:border-[#f7AB0A]
-    }
-    .img{
-        @apply p-2 w-28  rounded-full object-cover border
-         border-gray-600 
-    }
+  .heroButton {
+    @apply px-6 py-2 border border-[#242424] rounded-full text-sm tracking-widest
+        text-gray-500 transition-all hover:text-[#f7AB0A] hover:border-[#f7AB0A];
+  }
+  .img {
+    @apply p-2 w-20 h-20 rounded-full object-cover border
+         border-gray-600;
+  }
 
-    .contact-input {
-        @apply outline-none bg-slate-400/10 w-72 md:w-96 rounded-sm border-b py-2 text-sm md:text-base p-2
-        border-[#242424] hover:border-[#F7AB0A] text-gray-500 
-    }
-    .no-scrollbar {
-        -ms-overflow-style: none;  /* IE and Edge */
-        scrollbar-width: none;  /* Firefox */
-    }
+  .contact-input {
+    @apply outline-none bg-slate-400/10 w-72 md:w-96 rounded-sm border-b py-2 text-sm md:text-base p-2
+        border-[#242424] hover:border-[#F7AB0A] text-gray-500;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
 }
